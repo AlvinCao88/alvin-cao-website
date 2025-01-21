@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 import { FaArrowRight } from 'react-icons/fa';
 
 interface ProjectAccordionProps {
   name: string;
   link: string;
-  image?: string;
+  image?: StaticImageData;
   description?: string;
 }
 

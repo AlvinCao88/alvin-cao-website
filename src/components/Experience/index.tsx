@@ -1,7 +1,4 @@
 "use client";
-import Image from "next/image";
-import PFP from "@/assets/pfp.jpg";
-import SpinningCube from "@/components/SpinningCube";
 import { BentoBox, BentoInfo } from "@/components/BentoBox";  // Import BentoBox and BentoInfo
 
 export default function Experience() {

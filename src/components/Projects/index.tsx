@@ -1,8 +1,15 @@
 import { ProjectAccordion } from '@/components/ProjectAccordion';
+import {StaticImageData} from "next/image";
 import PFP from "@/assets/pfp.jpg";
-import { Button } from "@/components/ui/button";
 import { FaArrowRight } from 'react-icons/fa';
 
+
+export type TabInfo = {
+    name: string;
+    link: string;
+    image: StaticImageData;
+    description: string;
+};
 
 export default function Projects() {
   const projectTabs: TabInfo[] = [
