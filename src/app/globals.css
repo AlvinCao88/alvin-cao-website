@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&family=Shrikhand&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Global Light Mode Variables */
+  :root {
+    --text: #020a18;
+    --background: #e3ecfc;
+    --primary: #0c2e79;
+    --secondary: #f16f8d;
+    --accent: #d56215;
+    --border: #cbd5e1;
+  }
+
+  .dark {
+    --text: #e1f0fe;
+    --background: #00101f;
+    --primary: #69bafc;
+    --secondary: #b00803;
+    --accent: #fbec18;
+    --border: #334155;
+  }
+
+  /* Apply to all elements */
+  * {
+    @apply border-border;
+  }
+
+  /* Body styles */
+  body {
+    @apply bg-background text-text;
+    font-family: 'Scope One', serif;
+    font-weight: 400;
+  }
+
+  /* Update link hover behavior */
+  a {
+    @apply hover:text-primary;
+  }
+
+}

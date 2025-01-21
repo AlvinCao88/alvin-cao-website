@@ -1,0 +1,131 @@
+{
+  "projects": [
+    {
+      "name": "9th Annual Trading Competition",
+      "description": "Learned to trade financial securities on a real-time basis using Rotman Interactive Trader Software. Quickly applied the knowledge in a fast-paced, simulated trade floor. Placed second in the category of Trading.",
+      "image": "https://www.utsc.utoronto.ca/thebridge/sites/utsc.utoronto.ca.thebridge/files/styles/cta_wide/public/images/events/Website%20UTSC%20Trading%20Competition%20.png?h=c79deb0b&itok=83Po6WJX",
+      "github": "",
+      "devpost": "",
+      "year": 2022,
+      "tech": []
+    },
+    {
+      "name": "Lost in the Valley",
+      "description": "HackTheValley 7",
+      "image": "",
+      "github": "https://github.com/AlvinCao88/Lost-in-the-Valley",
+      "devpost": "https://devpost.com/software/loss-in-the-valley",
+      "year": 2022,
+      "tech": []
+    },
+    {
+      "name": "World Cup Data League Challenge",
+      "description": "Applied knowledge from workshops on sports data analysis and APIs. Visualized the data using Power BI and placed fourth in the Overall Competition.",
+      "image": "",
+      "github": "",
+      "devpost": "",
+      "year": 2022,
+      "tech": ["Python", "Power BI", "API"]
+    },
+    {
+      "name": "Datathon",
+      "description": "Analyzed usage data of 108 old batteries to predict the remaining usage life for 19 unknown batteries using their usage data.",
+      "image": "",
+      "github": "",
+      "devpost": "",
+      "year": 2023,
+      "tech": ["Python"]
+    },
+    {
+      "name": "Marketplace Application",
+      "description": "Developed an app allowing store owners and customers to interact and place orders for pickup.",
+      "image": "", 
+      "github": "https://github.com/AlvinCao88/b07FinalProject_Group9",
+      "devpost": "",
+      "year": 2023,
+      "tech": ["Android Studio"],
+      "background": "<Image className='absolute -right-20 -top-20 opacity-60' />",
+      "className": "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3"
+    },
+    {
+      "name": "Fake:It",
+      "description": "An AI that analyzes facial expressions and speech through webcams and microphones, tailoring responses to emotions for personalized, confidence-boosting conversations.",
+      "image": "", 
+      "github": "https://github.com/AlvinCao88/Fake-It",
+      "devpost": "https://devpost.com/software/fakeit",
+      "year": 2023,
+      "tech": ["Python", "Flask", "JavaScript", "React", "TensorFlow", "API"],
+      "background": "<Image className='absolute -right-20 -top-20 opacity-60' />",
+      "className": "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3"
+    },
+    {
+      "name": "Dispose It Right",
+      "description": "A mobile application developed in React Native that detects trash and uses AI to determine how to dispose of it in simple steps.",
+      "image": "", 
+      "github": "https://github.com/AlvinCao88/DisposeItRight",
+      "devpost": "https://devpost.com/software/dispose-it-right",
+      "year": 2024,
+      "tech": ["JavaScript", "React Native", "MongoDB", "Node.js"],
+      "background": "<Image className='absolute -right-20 -top-20 opacity-60' />",
+      "className": "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4"
+    },
+    {
+      "name": "Predictive Modelling",
+      "description": "Conducted intense data analysis on traffic signs, celestial labeling, and heart disease datasets. Achieved 6th place out of over 20+ teams.",
+      "image": "", 
+      "github": "",
+      "devpost": "",
+      "year": 2024,
+      "tech": ["Python"],
+      "background": "<Image className='absolute -right-20 -top-20 opacity-60' />",
+      "className": "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2"
+    },
+    {
+      "name": "Safe Haven",
+      "description": "Developed a mobile application for Crohn's and colitis patients needing urgent bathroom access. Provides helpful information and navigation.",
+      "image": "", 
+      "github": "https://github.com/AlvinCao88/c01w24-project-Safe_Haven",
+      "devpost": "",
+      "year": 2024,
+      "tech": ["JavaScript", "React Native", "MongoDB", "Node.js", "React"],
+      "background": "<Image className='absolute -right-20 -top-20 opacity-60' />",
+      "className": "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      "name": "low",
+      "description": "Learned to trade financial securities on a real-time basis using Rotman Interactive Trader Software. Quickly applied the knowledge in a fast-paced, simulated trade floor. Placed second in the category of Trading.",
+      "image": "https://www.utsc.utoronto.ca/thebridge/sites/utsc.utoronto.ca.thebridge/files/styles/cta_wide/public/images/events/Website%20UTSC%20Trading%20Competition%20.png?h=c79deb0b&itok=83Po6WJX",
+      "github": "",
+      "devpost": "",
+      "year": 2022,
+      "tech": []
+    },
+    {
+      "name": "bitch",
+      "description": "HackTheValley 7",
+      "image": "",
+      "github": "https://github.com/AlvinCao88/Lost-in-the-Valley",
+      "devpost": "https://devpost.com/software/loss-in-the-valley",
+      "year": 2022,
+      "tech": []
+    },
+    {
+      "name": "test",
+      "description": "Applied knowledge from workshops on sports data analysis and APIs. Visualized the data using Power BI and placed fourth in the Overall Competition.",
+      "image": "",
+      "github": "",
+      "devpost": "",
+      "year": 2022,
+      "tech": ["Python", "Power BI", "API"]
+    },
+    {
+      "name": "play",
+      "description": "Analyzed usage data of 108 old batteries to predict the remaining usage life for 19 unknown batteries using their usage data.",
+      "image": "",
+      "github": "",
+      "devpost": "",
+      "year": 2023,
+      "tech": ["Python"]
+    }
+  ]
+}
