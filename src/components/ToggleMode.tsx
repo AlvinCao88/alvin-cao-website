@@ -13,14 +13,14 @@ const ToggleMode = () => {
     }, []); // Empty dependency array to run only on mount
 
     if (!mounted) {
-        return <Button variant="default" size="icon" disabled={true} />;
+        return <Button   variant="ghost"  size="icon" disabled={true} />;
     }
 
     const dark = theme === "dark";
 
     return (
         <Button
-            variant="default"
+            variant="ghost"
             size="icon"
             onClick={() =>   setTheme(dark ? "light" : "dark")}
         >

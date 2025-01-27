@@ -1,7 +1,9 @@
 "use client";
 import PFP from "@/assets/pfp.jpg";
+// import resume from "../../assets/"
 import Image from "next/image";
 import SpinningCube from "@/components/SpinningCube";
+import { MdOutlineLocationDisabled } from "react-icons/md";
 
 export default function Hero() {
   return (
@@ -20,6 +22,17 @@ export default function Hero() {
       <div className="flex-start flex flex-none flex-col flex-nowrap gap-20 h-auto justify-center overflow-hidden p-0 relative w-full">
   
         <div className="mt-4 text-4xl ml-10 font-body">I develop software</div>
+        {/* <div className="flex justify-center">
+          <a 
+          href="/Resume_jan.pdf"
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="w-fit text-xl bg-secondary hover:bg-accent text-white p-4 rounded-lg transition-colors duration-200 font-body"
+          >
+            View Resume
+          </a>
+        </div> */}
+        
         <div className="flex items-center text-xl border-4 border-accent border-l-0 rounded-r-full shadow-inner w-fit p-2 mt-4 font-body font-bold">
           Located in Toronto
           <div className="p-2">

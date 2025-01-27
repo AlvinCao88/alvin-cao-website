@@ -17,8 +17,8 @@ export default function Experience() {
       link: '#something',
     },
     {
-      title: 'Something Else',
-      description: 'Outside of tech, I love exploring music and art, always finding new ways to merge creativity with technology.',
+      title: 'Work Experience',
+      description: 'Coop @ Cineplex Digital Media as a Software Developer',
       image: 'something-else.jpg', // Replace with the path to your image
       link: '#something-else',
     },
