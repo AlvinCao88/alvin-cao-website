@@ -3,7 +3,6 @@ import PFP from "@/assets/pfp.jpg";
 // import resume from "../../assets/"
 import Image from "next/image";
 import SpinningCube from "@/components/SpinningCube";
-import { MdOutlineLocationDisabled } from "react-icons/md";
 
 export default function Hero() {
   return (
