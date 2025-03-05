@@ -90,42 +90,6 @@
       "tech": ["JavaScript", "React Native", "MongoDB", "Node.js", "React"],
       "background": "<Image className='absolute -right-20 -top-20 opacity-60' />",
       "className": "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4"
-    },
-    {
-      "name": "low",
-      "description": "Learned to trade financial securities on a real-time basis using Rotman Interactive Trader Software. Quickly applied the knowledge in a fast-paced, simulated trade floor. Placed second in the category of Trading.",
-      "image": "https://www.utsc.utoronto.ca/thebridge/sites/utsc.utoronto.ca.thebridge/files/styles/cta_wide/public/images/events/Website%20UTSC%20Trading%20Competition%20.png?h=c79deb0b&itok=83Po6WJX",
-      "github": "",
-      "devpost": "",
-      "year": 2022,
-      "tech": []
-    },
-    {
-      "name": "bitch",
-      "description": "HackTheValley 7",
-      "image": "",
-      "github": "https://github.com/AlvinCao88/Lost-in-the-Valley",
-      "devpost": "https://devpost.com/software/loss-in-the-valley",
-      "year": 2022,
-      "tech": []
-    },
-    {
-      "name": "test",
-      "description": "Applied knowledge from workshops on sports data analysis and APIs. Visualized the data using Power BI and placed fourth in the Overall Competition.",
-      "image": "",
-      "github": "",
-      "devpost": "",
-      "year": 2022,
-      "tech": ["Python", "Power BI", "API"]
-    },
-    {
-      "name": "play",
-      "description": "Analyzed usage data of 108 old batteries to predict the remaining usage life for 19 unknown batteries using their usage data.",
-      "image": "",
-      "github": "",
-      "devpost": "",
-      "year": 2023,
-      "tech": ["Python"]
     }
   ]
 }
