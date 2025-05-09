@@ -10,7 +10,7 @@ const ToggleMode = () => {
 
     useEffect(() => {
         setMounted(true);
-    }, []); // Empty dependency array to run only on mount
+    }, []); 
 
     if (!mounted) {
         return <Button   variant="ghost"  size="icon" disabled={true} />;
@@ -19,13 +19,12 @@ const ToggleMode = () => {
     const dark = theme === "dark";
 
     return (
-        <Button
-            variant="ghost"
-            size="icon"
+        <div
+            className="duration-200"
             onClick={() =>   setTheme(dark ? "light" : "dark")}
         >
             {dark ? <Sun className="hover:cursor-pointer hover:text-primary"/> : <Moon className="hover:cursor-pointer hover:text-primary"/>}
-        </Button>
+        </div>
     );
 };
 

@@ -7,21 +7,21 @@
 @layer base {
   /* Global Light Mode Variables */
   :root {
-    --text: #020a18;
-    --background: #e3ecfc;
-    --primary: #0c2e79;
-    --secondary: #f16f8d;
-    --accent: #d56215;
-    --border: #cbd5e1;
+    --text: #0c1527;
+    --background: #eaf0fb;
+    --primary: #1446a0;
+    --secondary: #ff758f;
+    --accent: #f7931e;
+    --border: #d1d9e6;
   }
 
   .dark {
-    --text: #e1f0fe;
+    --text: #dde9f7;
     --background: #00101f;
-    --primary: #69bafc;
+    --primary: #74c0fc;
     --secondary: #b00803;
-    --accent: #fbec18;
-    --border: #334155;
+    --accent: #ffd600;
+    --border: #475569;
   }
 
   /* Apply to all elements */
