@@ -41,7 +41,7 @@ export const ProjectAccordion: React.FC<ProjectAccordionProps> = ({ name, link, 
         )}
         <div className="ml-5 flex-1">
           <p
-            className={`font-title text-lg md:text-3xl transform transition-transform duration-300 ${isHovered ? 'translate-x-3' : 'translate-x-0'}`}
+            className={`font-title text-xl lg:text-3xl transform transition-transform duration-300 ${isHovered ? 'translate-x-3' : 'translate-x-0'}`}
           >
             {name}
           </p>

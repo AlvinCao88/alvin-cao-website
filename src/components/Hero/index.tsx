@@ -8,10 +8,10 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="align-center flex flex-none flex-col md:flex-row h-auto flex-nowrap space-between overflow-hidden relative w-full top-24 pb-24 pr-8 pl-0"
+      className="align-center flex flex-none flex-col lg:flex-row h-auto flex-nowrap justify-between overflow-hidden relative w-full top-24 pb-24 pl-0"
     >
-      <div className="w-full md:w-1/2 ">
-        <div className="font-title text-3xl lg:text-7xl text-primary pl-6 transition-all duration-300 hover:bg-gradient-to-r hover:from-secondary hover:to-accent hover:bg-clip-text hover:text-transparent">
+      <div className="w-full lg:w-1/2 ">
+        <div className="font-title text-2xl text-center lg:text-7xl text-primary pl-6 transition-all duration-300 hover:bg-gradient-to-r hover:from-secondary hover:to-accent hover:bg-clip-text hover:text-transparent">
           &lt;Hey, I&apos;m Alvin/&gt;
         </div>
         <div className="flex-start flex flex-none flex-col flex-nowrap gap-20 h-auto justify-center overflow-hidden p-0 relative w-full">
@@ -39,15 +39,17 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse flex-nowrap gap-2.5 h-auto overflow-hidden w-3/5 ml-0">
-        <div className="hidden md:flex flex-col items-center justify-center gap-2.5 h-full w-3/4 rounded-3xl p-4 bg-primary">
+      <div className="flex flex-row-reverse flex-nowrap gap-2.5 h-auto overflow-hidden w-2/5 ml-0">
+        <div 
+        className="hidden md:flex flex-col items-center justify-center h-full w-3/4"
+        >
           <Image
             src={PFP}
             alt="pfp"
-            className="w-full h-auto rounded-xl mx-auto"
+            className="w-full h-auto rounded-l-[64px] mx-auto border-4 border-border"
             priority={false}
           />
-          <div className="text-2xl p-2 font-title">Software Developer</div>
+          {/* <div className="text-2xl p-2 font-title">Software Developer</div> */}
         </div>
       </div>
     </div>
